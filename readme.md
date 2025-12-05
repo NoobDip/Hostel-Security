@@ -26,7 +26,7 @@ You need Python 3.8+ installed(Created on Python 3.13.9 and not tested for backw
 2.  Install the required dependencies:
 
 ```bash
-pip install opencv-python ultralytics pywhatkit
+pip install -r requirements.txt
 ```
 
 *Note: The first time you run the script, `ultralytics` will automatically download the `yolov8n.pt` model file.*
