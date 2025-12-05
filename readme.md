@@ -14,7 +14,7 @@ This project is a Python-based security script that uses computer vision to dete
 
 ## Prerequisites
 
-You need Python 3.8+ installed. You also need the following Python libraries:
+You need Python 3.8+ installed(Created on Python 3.13.9 and not tested for backward compatability). You also need the following Python libraries:
 
 * opencv-python
 * ultralytics
