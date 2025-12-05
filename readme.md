@@ -1,4 +1,3 @@
-````markdown
 # YOLOv8 Person Detection & WhatsApp Alert System
 
 This project is a Python-based security script that uses computer vision to detect people in real-time using a webcam. When a person is detected, it captures an image and sends it immediately to a specified WhatsApp number using the `pywhatkit` library.
@@ -28,7 +27,7 @@ You need Python 3.8+ installed. You also need the following Python libraries:
 
 ```bash
 pip install opencv-python ultralytics pywhatkit
-````
+```
 
 *Note: The first time you run the script, `ultralytics` will automatically download the `yolov8n.pt` model file.*
 
@@ -76,5 +75,3 @@ python main.py --number "+1234567890" --until "1830"
 2.  **Browser Focus:** Do not minimize the browser window while the script is trying to send a message, as it requires active focus to upload the image.
 
 <!-- end list -->
-
-````
